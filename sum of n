@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int a, n, sum = 0;
+    printf("Enter a positive integer: ");
+    scanf("%d", &a);
+    for (n = 1; n <= a; ++n) {
+        sum += n;
+    }
+    printf("Sum = %d", sum);
+    return 0;
+}
